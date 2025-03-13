@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-13T17:32:37 IST" name="Default suite" finished-at="2025-03-13T17:33:29 IST" duration-ms="51817">
+    <groups>
+      <group name="regressionTest">
+        <method signature="updateProducts.DeleteProduct()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" name="DeleteProduct" class="ecommerce.Admin2.updateProducts"/>
+        <method signature="updateProducts.UpdateAndDelete()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" name="UpdateAndDelete" class="ecommerce.Admin2.updateProducts"/>
+        <method signature="updateProducts.UpdateProducts()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" name="UpdateProducts" class="ecommerce.Admin2.updateProducts"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="updateProducts.DeleteProduct()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" name="DeleteProduct" class="ecommerce.Admin2.updateProducts"/>
+        <method signature="updateProducts.UpdateAndDelete()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" name="UpdateAndDelete" class="ecommerce.Admin2.updateProducts"/>
+        <method signature="updateProducts.UpdateProducts()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" name="UpdateProducts" class="ecommerce.Admin2.updateProducts"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2025-03-13T17:32:37 IST" name="Default test" finished-at="2025-03-13T17:33:29 IST" duration-ms="51817">
+      <class name="ecommerce.Admin2.updateProducts">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:32:37 IST" name="configBS" finished-at="2025-03-13T17:32:37 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:32:37 IST" name="configBC" finished-at="2025-03-13T17:32:41 IST" duration-ms="3186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:32:41 IST" name="configBM" finished-at="2025-03-13T17:32:44 IST" duration-ms="3634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="DeleteProduct()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:32:44 IST" name="DeleteProduct" finished-at="2025-03-13T17:32:51 IST" duration-ms="7182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProduct -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:32:51 IST" name="configAM" finished-at="2025-03-13T17:32:52 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:32:52 IST" name="configBM" finished-at="2025-03-13T17:32:54 IST" duration-ms="1813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="SubCatDropdown()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:32:54 IST" name="SubCatDropdown" finished-at="2025-03-13T17:32:55 IST" duration-ms="1126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubCatDropdown -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:32:55 IST" name="configAM" finished-at="2025-03-13T17:32:55 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:32:55 IST" name="configBM" finished-at="2025-03-13T17:32:57 IST" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="UpdateAndDelete()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:32:57 IST" name="UpdateAndDelete" finished-at="2025-03-13T17:33:01 IST" duration-ms="3866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateAndDelete -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:33:01 IST" name="configAM" finished-at="2025-03-13T17:33:01 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:33:01 IST" name="configBM" finished-at="2025-03-13T17:33:03 IST" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="UpdateProducts()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:33:03 IST" name="UpdateProducts" finished-at="2025-03-13T17:33:28 IST" duration-ms="25520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProducts -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:33:28 IST" name="configAM" finished-at="2025-03-13T17:33:29 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:33:29 IST" name="configAC" finished-at="2025-03-13T17:33:29 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:ecommerce.Admin2.updateProducts@70325e14]" started-at="2025-03-13T17:33:29 IST" name="configAS" finished-at="2025-03-13T17:33:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- ecommerce.Admin2.updateProducts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

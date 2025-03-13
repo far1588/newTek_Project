@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="ecommerce.Admin1.category">
+        <methods>
+          <include name="InsertProdDetails"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- ecommerce.Admin1.category -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <parameter name="Broswer" value="Chrome"/>
+    <classes>
+      <class name="ecommerce.Admin1.category">
+        <methods>
+          <include name="InsertProdDetails"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- ecommerce.Admin1.category -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
